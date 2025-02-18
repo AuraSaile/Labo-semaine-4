@@ -8,10 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_upward" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
+    <header id="top">
         <div class="wrapper">
             <h1>La typographie</h1>
         </div>
@@ -19,39 +20,37 @@
 
     <section class="slogan">
         <div class="wrapper">
-            <h2>
                 <q>
                      L’écriture, la plus noble conquête de l’homme 
                 </q>
-                <br> - Elsa Triolet 
-            </h2>
+                <p class="credit"> - Elsa Triolet </p>
         </div>
     </section>
     
     <section class="regles">
         <div class="wrapper">
             <a href="">
-                <article>
-                    <p class="rond1">«</p>
-                    <h3>Quels guillemets choisir pour le Web ?</h3>
+                <article class="a1">
+                    <p class="rond">«</p>
+                    <p class="message1">Quels guillemets choisir pour le Web ?</p>
                 </article>
             </a>
             <a href="">
-                <article>
-                    <p class="rond2">&amp;nbsp</p>
-                    <h3>Qu’est-ce qu’un espace insécable ?</h3>
+                <article class="a2">
+                    <p class="message2">Qu’est-ce qu’un espace insécable ?</p>
+                    <p class="rond">&amp;nbsp</p> 
                 </article>
             </a>
             <a href="">
-                <article>
-                    <p class="rond3">Windows</p>
-                    <h3>S’occuper de la veuve et de l’orphelin.</h3>
+                <article class="a1">
+                    <p class="rond">Windows</p>
+                    <p class="message1">S’occuper de la veuve et de l’orphelin.</p>
                 </article>
             </a>
             <a href="">
-                <article>
-                    <p class="rond4">line-height</p>
-                    <h3>Et la hauteur de ligne dans tout ça ?</h3>
+                <article class="a2">
+                    <p class="message2">Et la hauteur de ligne dans tout ça ?</p>
+                    <p class="rond">line-height</p>
                 </article>
             </a>
         </div>
@@ -59,20 +58,31 @@
 
     <section class="info">
         <div class="wrapper">
-            <p>
-                Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une <strong>police sans sérif</strong> (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, <strong>Google Font</strong> s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.
-            </p>
-
-            <p>
-                <strong>Test à faire en dernier : </strong>
-                <br> Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième &#60; article &#62;. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).
-            </p>
+            <article>
+                <p>
+                    Lors du choix des polices de caractères, un concepteur Web se tourne vers celles conçues pour une bonne lecture à l’écran et qui se retrouvent sur la majorité des plateformes. On recommande ainsi une <strong>police sans sérif</strong> (sans petites pattes) qui facilite la lecture à l’écran. Pour le choix des polices, <strong>Google Font</strong> s’avère une ressource très utilisée qui permet de trouver facilement une police qui conviendra à tous les écrans.
+                </p>
+            </article>
+            
+            <article>
+                <p>
+                    <strong>Test à faire en dernier : </strong>
+                </p>
+                <p>
+                    Insérez un espace insécable entre le mot «insécable» et le «?» du deuxième &#60; article &#62;. Observez le résultat lors du  redimensionnement de votre écran.Vous pourrez observer que le «?» suivra toujours le mot qui le précède, ce qui permet d’éviter d’avoir une ponctuation orpheline à la ligne suivante (problème de la veuve et l’orphelin).
+                </p>
+            </article>
         </div>
     </section>
 
     <footer>
         <div class="wrapper">
-
+            <p>La typographie</p>
+            <a href="#top">
+                <p class="flêche"> <span class="material-symbols-outlined">
+                    arrow_upward
+                    </span></p>
+            </a>
         </div>
     </footer>
 

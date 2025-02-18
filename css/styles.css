@@ -6,3 +6,184 @@ html{
 *,*:before,*:after{
     box-sizing: inherit;
 }
+
+/*////////////////////////////////////////////////////////////////
+BASE
+////////////////////////////////////////////////////////////////*/
+
+.wrapper{
+    font-family: "Roboto", serif;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*////////////////////////////////////////////////////////////////
+ITEM
+////////////////////////////////////////////////////////////////*/
+
+h1{
+    font-size: 9.6rem;
+    font-weight: 900;
+    letter-spacing: 32px;
+
+    color: white;
+
+    text-align: center;
+
+    margin-top: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+q{
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-size: 4.8rem;
+
+    letter-spacing: 3px;
+    
+
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a article:hover{
+    background-color: #bdc3c7;
+}
+
+/*////////////////////////////////////////////////////////////////
+DONNÉES PRINCIPALES 
+////////////////////////////////////////////////////////////////*/
+
+/* Header */
+
+header{
+    background-color: #34495e;
+}
+
+/* Slogan */ 
+
+.slogan{
+    height: 230px;
+
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-size: 4.8rem;
+
+    letter-spacing: 3px;
+}
+
+.slogan p{
+    text-align: right;
+}
+
+/* Regles */ 
+
+.rond{
+    width: 210px;
+    height: 210px;
+
+    color: #d35400;
+    font-size: 3rem;
+    font-weight: bold;
+
+    border: solid 5px #d35400;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.a1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    background-color: white;
+}
+
+.a2{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    background-color: white;
+}
+
+.message1{
+    color: black;
+
+    font-family: "Quicksand", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    
+    padding-left: 50px;
+    
+}
+
+.message2{
+    color: black;
+
+    font-family: "Quicksand", serif;
+    font-size: 3.6rem;
+    font-weight: 400;
+    
+    padding-right: 50px;
+    
+}
+
+/* info */ 
+
+.info .wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.info p{
+    font-family: "Roboto", serif;
+    font-size: 2rem;
+    line-height: 40px;
+}
+
+/* Footer */
+
+footer{
+    background-color: #2980b9;
+    
+    
+}
+
+footer .wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: "Roboto", serif;
+}
+
+.flêche{
+    background-color: white;
+    color: black;
+
+    width: 50px;
+    height: 50px;
+
+    border: solid 3px #bdc3c7;
+    border-radius: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
